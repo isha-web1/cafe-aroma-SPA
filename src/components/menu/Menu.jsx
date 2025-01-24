@@ -37,7 +37,7 @@ const Menu = () => {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5, delay: 0.5 }}
-            className="text-4xl font-bold font-cursive text-amber-900"
+            className="text-4xl font-bold font-cursive text-[#524237]"
           >
             Best Coffee for You
           </motion.h1>
@@ -58,7 +58,7 @@ const Menu = () => {
                   className="max-w-[200px] block mx-auto transform -translate-y-14 group-hover:scale-105 group-hover:rotate-6 duration-300"
                 />
               </div>
-              <div className="p-4 text-center">
+              <div className="p-4 text-center mb-4">
                 <div className="w-full"></div>
                 <h1 className="text-xl font-bold">{menu.name}</h1>
                 <p className="text-gray-500 group-hover:text-white duration-high text-sm line-clamp-2">
